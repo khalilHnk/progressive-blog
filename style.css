@@ -1,0 +1,27 @@
+body,
+.page,
+.page *{
+  margin:0;
+  padding:0;
+  box-sizing:border-box  
+}
+.page{
+  display:flex;
+  flex-direction:column;
+  justify-content:space-between;
+  align-items:center;
+  border:20px solid #000;
+  background-color:#ccc;
+  min-height:100vh
+}
+header,footer{
+  background-color:rgba(255,255,0,.2);
+  flex-basis:50px;
+  width:100%;
+}
+main{
+  width:100%;
+  outline:4px solid rgba(0,128,0,.8);
+  outline-offset:-4px;
+  flex-grow:1
+}
